@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "First Project with nodejs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/FilipiRafael/nodejs_first_project.git"
@@ -13,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/FilipiRafael/nodejs_first_project/issues"
   },
-  "homepage": "https://github.com/FilipiRafael/nodejs_first_project#readme"
+  "homepage": "https://github.com/FilipiRafael/nodejs_first_project#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
 }
